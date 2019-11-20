@@ -2,6 +2,9 @@
   "name": "coinfit_project",
   "version": "1.0.0",
   "description": "my first coinfit project",
+  "engines": {
+    "node": "10.15.1"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
