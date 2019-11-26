@@ -14,6 +14,7 @@ if(process.env.NODE_ENV === 'production'){
     // });
     const staticFiles = express.static(path.join(__dirname, '../../client/build'));
     app.use(staticFiles);
+    app.use('/*', staticFiles)
 }
 
 const port = process.env.PORT || 5000;
