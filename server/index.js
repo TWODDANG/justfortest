@@ -2,7 +2,7 @@ const express= require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-
+// 하이 이유를 알았어. client 자체가 git에 안들어가있었음.........그래서 build도 안되었던거고.
 require('dotenv').config();
 
 const app = express();
